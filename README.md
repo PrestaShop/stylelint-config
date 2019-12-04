@@ -1,4 +1,4 @@
-# stylelint-config-twbs-bootstrap [![npm version](https://img.shields.io/npm/v/stylelint-config-prestashop.svg)]
+# stylelint-config-prestashop [![npm version](https://img.shields.io/npm/v/stylelint-config-prestashop.svg)]
 Default stylelint config used by Prestashop.
 
 ## Installation
