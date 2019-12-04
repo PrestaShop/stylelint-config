@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-config-prestashop",
+  "version": "1.0.0",
+  "description": "Default stylelint configuration used by Prestashop",
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "prestashop",
+    "stylelint-config",
+    "config",
+    "lint"
+  ],
+  "author": "PrestaShop",
+  "license": "OSL-3.0",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-twbs-bootstrap": "^1.0.0"
+  }
+}
