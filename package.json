@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Default stylelint configuration used by Prestashop",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/PrestaShop/stylelint-config"
+  },
   "keywords": [
     "stylelint",
     "prestashop",
