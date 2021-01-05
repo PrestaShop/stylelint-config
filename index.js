@@ -37,6 +37,7 @@ module.exports = {
           'css-appearance'
         ]
       }
-    ]
+    ],
+    'number-leading-zero': 'always'
   }
 };
