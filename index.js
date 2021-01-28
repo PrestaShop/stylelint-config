@@ -38,6 +38,12 @@ module.exports = {
         ]
       }
     ],
-    'number-leading-zero': 'always'
+    'number-leading-zero': 'always',
+    'rule-empty-line-before': [
+      'always',
+      {
+        ignore: ['after-comment', 'first-nested']
+      }
+    ]
   }
 };
