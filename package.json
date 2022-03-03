@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-prestashop",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Default stylelint configuration used by Prestashop",
   "main": "index.js",
   "repository": {
