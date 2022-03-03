@@ -1,23 +1,23 @@
 'use strict';
 
 module.exports = {
-  extends: ['stylelint-config-twbs-bootstrap/scss'],
+  extends: ['stylelint-config-twbs-bootstrap'],
   plugins: ['stylelint-no-unsupported-browser-features'],
   rules: {
-    'property-blacklist': [
+    'property-disallowed-list': [
       'border-radius',
       'border-top-left-radius',
       'border-top-right-radius',
       'border-bottom-right-radius',
       'border-bottom-left-radius',
-      'transition'
+      'transition',
     ],
-    'function-blacklist': ['calc'],
+    'function-disallowed-list': ['calc'],
     'scss/dollar-variable-default': [
       true,
       {
-        ignore: 'local'
-      }
+        ignore: 'local',
+      },
     ],
     'unicode-bom': 'never',
     indentation: 2,
@@ -34,16 +34,16 @@ module.exports = {
           'multicolumn',
           'intrinsic-width',
           'user-select-none',
-          'css-appearance'
-        ]
-      }
+          'css-appearance',
+        ],
+      },
     ],
     'number-leading-zero': 'always',
     'rule-empty-line-before': [
       'always',
       {
-        ignore: ['after-comment', 'first-nested']
-      }
-    ]
-  }
+        ignore: ['after-comment', 'first-nested'],
+      },
+    ],
+  },
 };

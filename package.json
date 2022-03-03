@@ -1,26 +1,20 @@
 {
   "name": "stylelint-config-prestashop",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Default stylelint configuration used by Prestashop",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/PrestaShop/stylelint-config"
   },
-  "keywords": [
-    "stylelint",
-    "prestashop",
-    "stylelint-config",
-    "config",
-    "lint"
-  ],
+  "keywords": ["stylelint", "prestashop", "stylelint-config", "config", "lint"],
   "author": "PrestaShop",
   "license": "OSL-3.0",
   "dependencies": {
-    "stylelint-config-twbs-bootstrap": "^2.1.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.3"
+    "stylelint-config-twbs-bootstrap": "^3.0.1",
+    "stylelint-no-unsupported-browser-features": "^5.0.1"
   },
   "devDependencies": {
-    "stylelint": "^13.2.1"
+    "stylelint": "^14.5.3"
   }
 }
