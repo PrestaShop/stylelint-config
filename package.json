@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-prestashop",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Default stylelint configuration used by Prestashop",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,7 @@
   "license": "OSL-3.0",
   "dependencies": {
     "stylelint-config-twbs-bootstrap": "^2.1.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1"
+    "stylelint-no-unsupported-browser-features": "^5.0.3"
   },
   "devDependencies": {
     "stylelint": "^13.2.1"
