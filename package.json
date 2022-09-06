@@ -11,7 +11,7 @@
   "author": "PrestaShop",
   "license": "OSL-3.0",
   "dependencies": {
-    "stylelint-config-twbs-bootstrap": "^3.0.1",
+    "stylelint-config-twbs-bootstrap": "^6.0.0",
     "stylelint-no-unsupported-browser-features": "^5.0.1"
   },
   "devDependencies": {
